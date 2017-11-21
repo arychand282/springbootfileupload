@@ -1,0 +1,1295 @@
+{
+	"id": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+	"name": "cofilib",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Document Category",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"order": [
+				"5f8bc0d3-b4de-5633-63c9-32d86e432087",
+				"3cd2fcd4-8484-4cd5-64af-5f5729a5e06c",
+				"8ae65a1d-7c3a-a98b-4abc-5cdbb33ae662",
+				"52e5f4c1-f572-7368-3f87-502d5016dd03",
+				"3711199e-9fc0-6689-017c-75b4e7c86c03",
+				"dcd5aac2-4548-ab6f-6e5a-7e95e93b84a9",
+				"e7ee0f71-0597-3b4e-a5b2-56bb8d863e0f"
+			],
+			"owner": "542242",
+			"folders_order": [],
+			"id": "d880a94b-d02d-6479-88f9-0f04159e35b8"
+		},
+		{
+			"name": "Document Limitation / Secretary Privilage",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"order": [
+				"3d7bb5d1-7a9a-8616-f68c-23438a5c84b3",
+				"f6bc82e3-2071-00e6-0471-c3cb18e1206d",
+				"18b1d945-48c3-65ed-1978-f944d9426ceb",
+				"35bfef0f-18e4-51a9-f963-d159773668ff",
+				"041257bb-b123-ae97-8698-c5ac626f5a4d",
+				"11ff5b56-64ca-556f-e3df-df9bab8856b4",
+				"329f7dde-d7ab-abfa-22e5-f951b8dacd9a",
+				"7a1a659e-f0e2-ebeb-cc0a-03a506274ff1"
+			],
+			"owner": "542242",
+			"folders_order": [],
+			"id": "51a55b16-6e3c-56d6-cf7c-f2ff53a13670"
+		},
+		{
+			"name": "Document Type",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"order": [
+				"50cff8df-36fb-98d4-39ed-dbacac9fd2f5",
+				"cbce5c97-00f5-9981-5294-aeff45940a6f",
+				"39a3701a-4608-8f43-4545-b0d6f6eb70ee",
+				"a0c35350-87b0-c7d0-9f1e-f6cb4f68e543",
+				"f2bbbb1b-65cf-69f8-cc06-af981f19c556",
+				"6b327e93-50d4-188f-64a3-1d4078f1fd15"
+			],
+			"owner": "542242",
+			"folders_order": [],
+			"id": "62a92b74-75f8-dd8c-c208-e393a215eb12"
+		},
+		{
+			"name": "Sla",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"order": [
+				"db56b294-2a4e-a985-0780-910578a85b3b",
+				"e94b8509-9c25-a9b0-42d2-4afad057cac5",
+				"2b22b031-7ec6-7b62-3ec1-3bdd5b44f94d",
+				"43a0b9e9-feda-f754-bab3-0358fb66c376",
+				"f6f86ba0-de9e-a06b-0c00-e4ce25895c8f"
+			],
+			"owner": "542242",
+			"folders_order": [],
+			"id": "22476a3f-2d32-e162-2eb1-5f072498e780"
+		}
+	],
+	"folders_order": [
+		"d880a94b-d02d-6479-88f9-0f04159e35b8",
+		"62a92b74-75f8-dd8c-c208-e393a215eb12",
+		"22476a3f-2d32-e162-2eb1-5f072498e780",
+		"51a55b16-6e3c-56d6-cf7c-f2ff53a13670"
+	],
+	"timestamp": 1510026147043,
+	"owner": "542242",
+	"public": false,
+	"requests": [
+		{
+			"id": "041257bb-b123-ae97-8698-c5ac626f5a4d",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentLimitation/listAll",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"data": null,
+			"dataMode": "params",
+			"name": "Document Limitation - Get List All for Table",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1510813371077,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "51a55b16-6e3c-56d6-cf7c-f2ff53a13670"
+		},
+		{
+			"id": "11ff5b56-64ca-556f-e3df-df9bab8856b4",
+			"headers": "Content-Type: application/json\nX-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentLimitation/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510819230102,
+			"name": "Document Limitation - Save",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": [],
+			"rawModeData": "{\n    \"roleCode\": \"2\",\n    \"documentCategoryId\": \"de12c4f0-30bc-4caa-860f-a3babde9e330\"\n}"
+		},
+		{
+			"id": "18b1d945-48c3-65ed-1978-f944d9426ceb",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/api/v1/documentType/listAll?page=0",
+			"folder": "62a92b74-75f8-dd8c-c208-e393a215eb12",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510798520758,
+			"name": "Document Limitation - Get List of Document Type",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": []
+		},
+		{
+			"id": "2b22b031-7ec6-7b62-3ec1-3bdd5b44f94d",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/sla/list?documentCategoryId=de12c4f0-30bc-4caa-860f-a3babde9e330",
+			"queryParams": [
+				{
+					"key": "documentCategoryId",
+					"value": "de12c4f0-30bc-4caa-860f-a3babde9e330",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"data": null,
+			"dataMode": "params",
+			"name": "Sla - Get List By DocumentCategoryId",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1510643220903,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "22476a3f-2d32-e162-2eb1-5f072498e780"
+		},
+		{
+			"id": "329f7dde-d7ab-abfa-22e5-f951b8dacd9a",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentLimitation/",
+			"folder": "51a55b16-6e3c-56d6-cf7c-f2ff53a13670",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510821419323,
+			"name": "Document Limitation - Update",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": [],
+			"rawModeData": "{\n    \"id\": \"995bb370-0f22-44d0-a343-c7390b49fb11\",\n    \"roleCode\": \"1\",\n    \"documentCategoryId\": \"760ccb08-38a4-42b0-8a2e-536b108e86ae\"\n}"
+		},
+		{
+			"id": "35bfef0f-18e4-51a9-f963-d159773668ff",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "localhost:8080/api/v1/documentCategory/listByDocumentType?documentType=073f2211-5d35-4a96-a75e-507e8266ede4",
+			"folder": "51a55b16-6e3c-56d6-cf7c-f2ff53a13670",
+			"queryParams": [
+				{
+					"key": "documentType",
+					"value": "073f2211-5d35-4a96-a75e-507e8266ede4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1510803208158,
+			"name": "Document Limitation - Get List of Document Category By DocumentTypeId",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "35bfef0f-18e4-51a9-f963-d159773668ff",
+			"timestamp": null
+		},
+		{
+			"id": "3711199e-9fc0-6689-017c-75b4e7c86c03",
+			"headers": "X-TERAVIN-USERNAME: \nX-TERAVIN-NAME: \nX-TERAVIN-USERID: \n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentCategory/c67d50f8-0c20-4839-b441-adbb95567201",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"data": null,
+			"dataMode": "params",
+			"name": "Document Category - Delete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1510048640454,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "d880a94b-d02d-6479-88f9-0f04159e35b8"
+		},
+		{
+			"id": "39a3701a-4608-8f43-4545-b0d6f6eb70ee",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentType/list?name=&type=",
+			"folder": "62a92b74-75f8-dd8c-c208-e393a215eb12",
+			"queryParams": [
+				{
+					"key": "name",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510033743280,
+			"name": "Document Type - Get List Filter",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": []
+		},
+		{
+			"id": "3cd2fcd4-8484-4cd5-64af-5f5729a5e06c",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentCategory/c67d50f8-0c20-4839-b441-adbb95567201",
+			"folder": "d880a94b-d02d-6479-88f9-0f04159e35b8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510136283569,
+			"name": "Document Category - Get By Id",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": []
+		},
+		{
+			"id": "3d7bb5d1-7a9a-8616-f68c-23438a5c84b3",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentLimitation/list?documentType=073f2211-5d35-4a96-a75e-507e8266ede4&documentCategory=760ccb08-38a4-42b0-8a2e-536b108e86ae&direction=ASC",
+			"folder": "51a55b16-6e3c-56d6-cf7c-f2ff53a13670",
+			"queryParams": [
+				{
+					"key": "documentType",
+					"value": "073f2211-5d35-4a96-a75e-507e8266ede4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "documentCategory",
+					"value": "760ccb08-38a4-42b0-8a2e-536b108e86ae",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "direction",
+					"value": "ASC",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510820097038,
+			"name": "Document Limitation - Get Filter list",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": []
+		},
+		{
+			"id": "43a0b9e9-feda-f754-bab3-0358fb66c376",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "localhost:8080/api/v1/sla/",
+			"folder": "22476a3f-2d32-e162-2eb1-5f072498e780",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1510644263495,
+			"name": "Sla - Update",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": [],
+			"timestamp": null,
+			"rawModeData": "{\n\t\"id\": \"d402f2bc-585a-469d-8ff3-1410d1f6d6d3\",\n\t\"documentCategoryId\": \"de12c4f0-30bc-4caa-860f-a3babde9e330\",\n\t\"amountFrom\": 1000001,\n\t\"amountTo\": 5000000,\n\t\"slaDue\": 7,\n\t\"slaReminder\": 3\n}"
+		},
+		{
+			"id": "50cff8df-36fb-98d4-39ed-dbacac9fd2f5",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentType/073f2211-5d35-4a96-a75e-507e8266ede4",
+			"folder": "62a92b74-75f8-dd8c-c208-e393a215eb12",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510029311511,
+			"name": "Document Type - Get By Id",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "50cff8df-36fb-98d4-39ed-dbacac9fd2f5"
+		},
+		{
+			"id": "52e5f4c1-f572-7368-3f87-502d5016dd03",
+			"headers": "Content-Type: application/json\nX-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "localhost:8080/api/v1/documentCategory/",
+			"folder": "d880a94b-d02d-6479-88f9-0f04159e35b8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1510633209338,
+			"name": "Document Category - Update",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": [],
+			"timestamp": null,
+			"rawModeData": "{\n    \"id\": \"de12c4f0-30bc-4caa-860f-a3babde9e330\",\n    \"secUserTypeCode\": \"secA\",\n    \"type\": \"doc\",\n    \"name\": \"Document Category A\",\n    \"generatableFlag\": true,\n    \"categoryCode\": \"DCA\",\n    \"documentType\": \"073f2211-5d35-4a96-a75e-507e8266ede4\",\n    \"calendarFlag\": true,\n    \"spmTypeFlag\": false,\n    \"memoNoFlag\": false,\n    \"pksNoFlag\": false,\n    \"invoiceNoFlag\": false,\n    \"description\": \"Document Category A Description\",\n    \"pattern\": \"123abc\",\n    \"slaDays\": 9,\n\t\"workingDaysFlag\": true,\n\t\"reminder\": 4\n}"
+		},
+		{
+			"id": "5f8bc0d3-b4de-5633-63c9-32d86e432087",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentCategory/",
+			"folder": "d880a94b-d02d-6479-88f9-0f04159e35b8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510818948332,
+			"name": "Document Category - Save",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": [],
+			"rawModeData": "{\n\t\"secUserTypeCode\": \"secZ\",\n\t\"type\": \"paper\",\n\t\"name\": \"Document Category Z\",\n\t\"generatableFlag\": true,\n\t\"categoryCode\": \"DCZ\",\n\t\"documentType\": \"dfa95130-67b6-423d-8689-ebecb74f8247\",\n\t\"calendarFlag\": true,\n\t\"spmTypeFlag\": true,\n\t\"memoNoFlag\": true,\n\t\"pksNoFlag\": true,\n\t\"invoiceNoFlag\": true,\n\t\"description\": \"Document Category Z Description\",\n\t\"deleteFlag\": false,\n\t\"pattern\": \"123xyz\",\n\t\"slaDays\": 9,\n\t\"workingDaysFlag\": true,\n\t\"reminder\": 4\n}"
+		},
+		{
+			"id": "6b327e93-50d4-188f-64a3-1d4078f1fd15",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/api/v1/documentType/listAll",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"data": null,
+			"dataMode": "params",
+			"name": "Document Type - Get List All",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1510050674313,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "62a92b74-75f8-dd8c-c208-e393a215eb12"
+		},
+		{
+			"id": "7a1a659e-f0e2-ebeb-cc0a-03a506274ff1",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentLimitation/89809077-7964-40e6-a452-e9eef244dbdf",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510818770723,
+			"name": "Document Limitation - Delete (hard)",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": []
+		},
+		{
+			"id": "8ae65a1d-7c3a-a98b-4abc-5cdbb33ae662",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentCategory/list?name=&categoryCode=&generatableFlag=true&documentType=073f2211-5d35-4a96-a75e-507e8266ede4",
+			"folder": "d880a94b-d02d-6479-88f9-0f04159e35b8",
+			"queryParams": [
+				{
+					"key": "name",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "categoryCode",
+					"value": "",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "generatableFlag",
+					"value": "true",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "documentType",
+					"value": "073f2211-5d35-4a96-a75e-507e8266ede4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510051373779,
+			"name": "Document Category - Get List Search",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": []
+		},
+		{
+			"id": "a0c35350-87b0-c7d0-9f1e-f6cb4f68e543",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentType/",
+			"folder": "62a92b74-75f8-dd8c-c208-e393a215eb12",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510112825846,
+			"name": "Document Type - Update",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": [],
+			"rawModeData": "{\n            \"id\": \"dfa95130-67b6-423d-8689-ebecb74f8247\",\n            \"name\": \"Document Type B\",\n            \"type\": \"int\",\n            \"generatableFlag\": true,\n            \"description\": \"Document Type B Description\"\n        }"
+		},
+		{
+			"id": "cbce5c97-00f5-9981-5294-aeff45940a6f",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "localhost:8080/api/v1/documentType/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Document Type - Save",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1510029293964,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"isFromCollection": true,
+			"folder": "62a92b74-75f8-dd8c-c208-e393a215eb12",
+			"timestamp": null,
+			"rawModeData": "{\n\t\"name\": \"Document Type 1\",\n\t\"type\": \"int\",\n\t\"generatableFlag\": true,\n\t\"description\": \"Document Type 1 Description\"\n}"
+		},
+		{
+			"id": "db56b294-2a4e-a985-0780-910578a85b3b",
+			"headers": "Content-Type: application/json\nX-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"url": "localhost:8080/api/v1/sla/",
+			"folder": "22476a3f-2d32-e162-2eb1-5f072498e780",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"time": 1510641315682,
+			"name": "Sla - Save",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": [],
+			"timestamp": null,
+			"rawModeData": "{\n\t\"documentCategoryId\": \"de12c4f0-30bc-4caa-860f-a3babde9e330\",\n\t\"amountFrom\": 1000001,\n\t\"amountTo\": 5000000,\n\t\"slaDue\": 7,\n\t\"slaReminder\": 3\n}"
+		},
+		{
+			"id": "dcd5aac2-4548-ab6f-6e5a-7e95e93b84a9",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentCategory/listAll",
+			"folder": "d880a94b-d02d-6479-88f9-0f04159e35b8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510640939955,
+			"name": "Document Category - Get List All",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": []
+		},
+		{
+			"id": "e7ee0f71-0597-3b4e-a5b2-56bb8d863e0f",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentCategory/listByDocumentType?documentType=073f2211-5d35-4a96-a75e-507e8266ede4",
+			"queryParams": [
+				{
+					"key": "documentType",
+					"value": "073f2211-5d35-4a96-a75e-507e8266ede4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510803208158,
+			"name": "Document Category - Get List By DocumentTypeId",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": []
+		},
+		{
+			"id": "e94b8509-9c25-a9b0-42d2-4afad057cac5",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/sla/6d491d2c-eb57-441c-b32a-f7c41e094647",
+			"folder": "22476a3f-2d32-e162-2eb1-5f072498e780",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510650363177,
+			"name": "Sla - Get By Id",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": []
+		},
+		{
+			"id": "f2bbbb1b-65cf-69f8-cc06-af981f19c556",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentType/073f2211-5d35-4a96-a75e-507e8266ede4",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"data": null,
+			"dataMode": "params",
+			"name": "Document Type - Delete",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1510036211616,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "62a92b74-75f8-dd8c-c208-e393a215eb12"
+		},
+		{
+			"id": "f6bc82e3-2071-00e6-0471-c3cb18e1206d",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/documentLimitation/8448402d-38f2-4b48-be3f-139916bbde8c",
+			"folder": "51a55b16-6e3c-56d6-cf7c-f2ff53a13670",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510818154333,
+			"name": "Document Limitation - Get By Id",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": []
+		},
+		{
+			"id": "f6f86ba0-de9e-a06b-0c00-e4ce25895c8f",
+			"headers": "X-TERAVIN-USERNAME: daniel\nX-TERAVIN-NAME: Daniel Sianipar\nX-TERAVIN-USERID: 1\n",
+			"headerData": [
+				{
+					"key": "X-TERAVIN-USERNAME",
+					"value": "daniel",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-NAME",
+					"value": "Daniel Sianipar",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-TERAVIN-USERID",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/api/v1/sla/a4f14eee-e561-486a-b64d-91240cf3a37e",
+			"folder": "22476a3f-2d32-e162-2eb1-5f072498e780",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510645232031,
+			"name": "Sla - Delete (hard delete)",
+			"description": "",
+			"collectionId": "035dd993-7da9-a571-e96a-9bc595dac7a2",
+			"responses": []
+		}
+	]
+}

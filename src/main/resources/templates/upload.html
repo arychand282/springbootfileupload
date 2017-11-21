@@ -17,6 +17,15 @@
         <span id="result"></span>
     </pre>
 
+    <h1>List of Uploaded Files</h1>
+    <div>
+        <ul>
+            <li th:each="file : ${files}">
+                <a th:href="${file}" th:text="${file}" />
+            </li>
+        </ul>
+    </div>
+
     <script type="text/javascript" src="webjars/jquery/2.2.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
